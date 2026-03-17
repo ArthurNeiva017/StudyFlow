@@ -77,15 +77,7 @@ pytest
 ruff check .
 ```
 
-## Versionamento
-Versão atual do projeto: **1.0.0**
-
 ## Autor
-Arthur Neiva
+Arthur Barroso Neiva
 
-## Repositório público
-Substitua este link após publicar o projeto:
 
-```text
-https://github.com/seu-usuario/studyflow-cli
-```
