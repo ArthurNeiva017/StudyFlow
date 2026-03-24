@@ -33,6 +33,7 @@ studyflow-cli/
 ├── src/
 ├── tests/
 ├── data/
+├─ docs/
 ├── .github/workflows/
 ├── README.md
 ├── requirements.txt
@@ -57,6 +58,32 @@ pip install -r requirements.txt
 ```bash
 python src/main.py
 ```
+
+### Exemplo de saída no terminal
+```text
+PS C:\Users\Arthur\studyflow> python src/main.py
+==== StudyFlow CLI ====
+1 - Adicionar tarefa
+2 - Listar tarefas
+3 - Concluir tarefa
+4 - Remover tarefa
+5 - Sair
+Escolha uma opção: 1
+Digite a tarefa: Revisar banco de dados
+Tarefa adicionada com sucesso!
+
+Escolha uma opção: 2
+[1] Revisar banco de dados - Pendente
+
+Escolha uma opção: 3
+Digite o ID da tarefa: 1
+Tarefa concluída com sucesso!
+
+Escolha uma opção: 2
+[1] Revisar banco de dados - Concluída
+```
+
+<strong>A evidência do funcionamento do programa está na pasta `Docs`</strong>
 
 ## Como usar
 Ao executar o programa, o usuário verá um menu com as opções:
